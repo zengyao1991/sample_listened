@@ -1,0 +1,347 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BIN	./comm.h	63;"	d
+BUFFER_SIZE	./beifen/le1w_client.c	25;"	d	file:
+BUFFER_SIZE	./beifen/le1w_client_mutithread.c	26;"	d	file:
+BUFFER_SIZE	./beifen/le1w_client_mutithread_0818_mor.c	26;"	d	file:
+BUFFER_SIZE	./beifen/le1w_client_noblocking.c	25;"	d	file:
+BUFFER_SIZE	./client.c	29;"	d	file:
+BUFFER_SIZE	./client_b.c	29;"	d	file:
+BUFFER_SIZE	./le1w_client_mutithread.c	26;"	d	file:
+CLOSE	./redo.h	13;"	d
+CMD_1	./beifen/le1w_client.c	27;"	d	file:
+CMD_1	./beifen/le1w_client_mutithread.c	28;"	d	file:
+CMD_1	./beifen/le1w_client_mutithread_0818_mor.c	29;"	d	file:
+CMD_1	./client.c	35;"	d	file:
+CMD_1	./client_b.c	35;"	d	file:
+CMD_1	./le1w_client_mutithread.c	29;"	d	file:
+CMD_2	./beifen/le1w_client.c	28;"	d	file:
+CMD_2	./beifen/le1w_client_mutithread.c	29;"	d	file:
+CMD_2	./beifen/le1w_client_mutithread_0818_mor.c	30;"	d	file:
+CMD_2	./client.c	36;"	d	file:
+CMD_2	./client_b.c	36;"	d	file:
+CMD_2	./le1w_client_mutithread.c	30;"	d	file:
+CMD_3	./beifen/le1w_client.c	29;"	d	file:
+CMD_3	./beifen/le1w_client_mutithread.c	30;"	d	file:
+CMD_3	./beifen/le1w_client_mutithread_0818_mor.c	31;"	d	file:
+CMD_LINE_MAX_LEN	./comm.h	49;"	d
+DEC	./comm.h	65;"	d
+DIR_MODE	./redo.h	8;"	d
+EIGHT_EAST_AREA_TM_DIFF_SEC	./redo.c	444;"	d	file:
+ERR_MSG_MAX_LEN	./comm.h	53;"	d
+EXBUF_SIZE	./beifen/le1w_client_mutithread_0818_mor.c	27;"	d	file:
+EXBUF_SIZE	./client.c	33;"	d	file:
+EXBUF_SIZE	./client_b.c	33;"	d	file:
+EXBUF_SIZE	./le1w_client_mutithread.c	27;"	d	file:
+FCLOSE	./redo.h	14;"	d
+FILE_LINE_MAX_LEN	./comm.h	47;"	d
+FILE_NAME_MAX_LEN	./comm.h	45;"	d
+FILE_PATH_MAX_LEN	./comm.h	46;"	d
+FREE	./redo.h	15;"	d
+GB	./comm.h	73;"	d
+HEART_BEAT	./client.c	37;"	d	file:
+HEART_BEAT	./client_b.c	37;"	d	file:
+HEART_BEAT	./le1w_client_mutithread.c	31;"	d	file:
+HEX	./comm.h	66;"	d
+INT_MAX_LEN	./comm.h	55;"	d
+INVALID_FD	./comm.h	59;"	d
+INVALID_PID	./comm.h	60;"	d
+IP_ADDR_MAX_LEN	./comm.h	48;"	d
+ISPOWEROF2	./comm.h	68;"	d
+KB	./comm.h	71;"	d
+MAX	./comm.h	/^static inline int MAX(int a, int b) { return ((a) > (b) ? (a) : (b)); }$/;"	f
+MAX_EVENTS	./client.c	28;"	d	file:
+MAX_EVENTS	./client_b.c	28;"	d	file:
+MB	./comm.h	72;"	d
+MD5_SUM_CHK_LEN	./comm.h	57;"	d
+MIN	./comm.h	/^static inline int MIN(int a, int b) { return ((a) < (b) ? (a) : (b)); }$/;"	f
+MYPORT	./beifen/le1w_client.c	24;"	d	file:
+MYPORT	./beifen/le1w_client_mutithread.c	25;"	d	file:
+MYPORT	./beifen/le1w_client_mutithread_0818_mor.c	25;"	d	file:
+MYPORT	./beifen/le1w_client_noblocking.c	24;"	d	file:
+MYPORT	./client.c	26;"	d	file:
+MYPORT	./client_b.c	26;"	d	file:
+MYPORT	./le1w_client_mutithread.c	25;"	d	file:
+MYSERVER	./client.c	27;"	d	file:
+MYSERVER	./client_b.c	27;"	d	file:
+Mkdir	./redo.c	/^int Mkdir(const char *dir, mode_t mode)$/;"	f
+Mkdir2	./redo.c	/^int Mkdir2(const char *fname, mode_t mode)$/;"	f
+NODE_MAX_LEN	./comm.h	54;"	d
+OCT	./comm.h	64;"	d
+ONE_YEAR_HOURS	./redo.c	443;"	d	file:
+OPEN_FLAGS	./redo.h	7;"	d
+OPEN_MODE	./redo.h	6;"	d
+Open	./redo.c	/^int Open(const char *fname, int flags, mode_t mode)$/;"	f
+PTR_ALIGNMENT	./comm.h	129;"	d
+QUEUE_MAX	./client.c	30;"	d	file:
+QUEUE_MAX	./client_b.c	30;"	d	file:
+QUEUE_NAME_MAX_LEN	./comm.h	51;"	d
+READ_DATA_RECEIVED	./client.c	/^    READ_DATA_RECEIVED = 0,$/;"	e	enum:client_read_ret	file:
+READ_DATA_RECEIVED	./client_b.c	/^    READ_DATA_RECEIVED = 0,$/;"	e	enum:client_read_ret	file:
+READ_ERROR	./client.c	/^    READ_ERROR = 2$/;"	e	enum:client_read_ret	file:
+READ_ERROR	./client_b.c	/^    READ_ERROR = 2$/;"	e	enum:client_read_ret	file:
+READ_NO_DATA_RECEIVED	./client.c	/^    READ_NO_DATA_RECEIVED = 1,$/;"	e	enum:client_read_ret	file:
+READ_NO_DATA_RECEIVED	./client_b.c	/^    READ_NO_DATA_RECEIVED = 1,$/;"	e	enum:client_read_ret	file:
+ROOM_ID	./client.c	31;"	d	file:
+ROOM_ID	./client_b.c	31;"	d	file:
+Random	./redo.c	/^int Random(void)$/;"	f
+Readn	./redo.c	/^ssize_t Readn(int fd, void *buff, size_t n)$/;"	f
+Sleep	./redo.c	/^void Sleep(int sec)$/;"	f
+Stack_t	./stack.h	/^} Stack_t;$/;"	t	typeref:struct:__anon1
+System	./redo.c	/^int System(const char *cmd)$/;"	f
+TABLE_NAME_MAX_LEN	./comm.h	52;"	d
+TERM_ACTIVE	./client.c	32;"	d	file:
+TERM_ACTIVE	./client_b.c	32;"	d	file:
+TM_DAY	./comm.h	120;"	d
+TM_HOUR	./comm.h	121;"	d
+TM_MIN	./comm.h	122;"	d
+TM_SEC	./comm.h	123;"	d
+UDP_MAX_LEN	./comm.h	50;"	d
+Writen	./redo.c	/^ssize_t Writen(int fd, const void *buff, size_t n)$/;"	f
+__ATOMIC_H__	./atomic.h	2;"	d
+__COMM_H__	./comm.h	2;"	d
+__REDO_H__	./redo.h	2;"	d
+__RING_H__	./ring.h	2;"	d
+__STACK_H__	./stack.h	10;"	d
+alive_time	./client.c	/^    time_t alive_time;$/;"	m	struct:client_conn	file:
+alive_time	./client_b.c	/^    time_t alive_time;$/;"	m	struct:client_conn	file:
+atomic16_add	./atomic.h	/^static inline uint16_t atomic16_add(volatile uint16_t *v, uint16_t i)$/;"	f
+atomic16_cmp_and_set	./atomic.h	/^static inline int atomic16_cmp_and_set(volatile uint16_t *v, uint16_t cmp, uint16_t i)$/;"	f
+atomic16_dec	./atomic.h	/^static inline uint16_t atomic16_dec(volatile uint16_t *v)$/;"	f
+atomic16_inc	./atomic.h	/^static inline uint16_t atomic16_inc(volatile uint16_t *v)$/;"	f
+atomic16_set	./atomic.h	/^static inline uint16_t atomic16_set(volatile uint16_t *v, uint64_t i)$/;"	f
+atomic16_sub	./atomic.h	/^static inline uint16_t atomic16_sub(volatile uint16_t *v, uint16_t i)$/;"	f
+atomic16_xadd	./atomic.h	/^static inline uint16_t atomic16_xadd(volatile uint16_t *v, uint16_t i)$/;"	f
+atomic16_xdec	./atomic.h	/^static inline uint16_t atomic16_xdec(volatile uint16_t *v)$/;"	f
+atomic16_xinc	./atomic.h	/^static inline uint16_t atomic16_xinc(volatile uint16_t *v)$/;"	f
+atomic16_xset	./atomic.h	/^static inline uint16_t atomic16_xset(volatile uint16_t *v, uint16_t i)$/;"	f
+atomic16_xsub	./atomic.h	/^static inline uint16_t atomic16_xsub(volatile uint16_t *v, uint16_t i)$/;"	f
+atomic32_add	./atomic.h	/^static inline uint32_t atomic32_add(volatile uint32_t *v, uint32_t i)$/;"	f
+atomic32_cmp_and_set	./atomic.h	/^static inline int atomic32_cmp_and_set(volatile uint32_t *v, uint32_t cmp, uint32_t i)$/;"	f
+atomic32_dec	./atomic.h	/^static inline uint32_t atomic32_dec(volatile uint32_t *v)$/;"	f
+atomic32_inc	./atomic.h	/^static inline uint32_t atomic32_inc(volatile uint32_t *v)$/;"	f
+atomic32_set	./atomic.h	/^static inline uint32_t atomic32_set(volatile uint32_t *v, uint32_t i)$/;"	f
+atomic32_sub	./atomic.h	/^static inline uint32_t atomic32_sub(volatile uint32_t *v, uint32_t i)$/;"	f
+atomic32_xadd	./atomic.h	/^static inline uint32_t atomic32_xadd(volatile uint32_t *v, uint32_t i)$/;"	f
+atomic32_xdec	./atomic.h	/^static inline uint32_t atomic32_xdec(volatile uint32_t *v)$/;"	f
+atomic32_xinc	./atomic.h	/^static inline uint32_t atomic32_xinc(volatile uint32_t *v)$/;"	f
+atomic32_xset	./atomic.h	/^static inline uint32_t atomic32_xset(volatile uint32_t *v, uint32_t i)$/;"	f
+atomic32_xsub	./atomic.h	/^static inline uint32_t atomic32_xsub(volatile uint32_t *v, uint32_t i)$/;"	f
+atomic64_add	./atomic.h	/^static inline uint64_t atomic64_add(volatile uint64_t *v, uint64_t i)$/;"	f
+atomic64_cmp_and_set	./atomic.h	/^static inline int atomic64_cmp_and_set(volatile uint64_t *v, uint64_t cmp, uint64_t i)$/;"	f
+atomic64_dec	./atomic.h	/^static inline uint64_t atomic64_dec(volatile uint64_t *v)$/;"	f
+atomic64_inc	./atomic.h	/^static inline uint64_t atomic64_inc(volatile uint64_t *v)$/;"	f
+atomic64_set	./atomic.h	/^static inline uint64_t atomic64_set(volatile uint64_t *v, uint64_t i)$/;"	f
+atomic64_sub	./atomic.h	/^static inline uint64_t atomic64_sub(volatile uint64_t *v, uint64_t i)$/;"	f
+atomic64_xadd	./atomic.h	/^static inline uint64_t atomic64_xadd(volatile uint64_t *v, uint64_t i)$/;"	f
+atomic64_xdec	./atomic.h	/^static inline uint64_t atomic64_xdec(volatile uint64_t *v)$/;"	f
+atomic64_xinc	./atomic.h	/^static inline uint64_t atomic64_xinc(volatile uint64_t *v)$/;"	f
+atomic64_xset	./atomic.h	/^static inline uint64_t atomic64_xset(volatile uint64_t *v, uint64_t i)$/;"	f
+atomic64_xsub	./atomic.h	/^static inline uint64_t atomic64_xsub(volatile uint64_t *v, uint64_t i)$/;"	f
+base	./stack.h	/^    void **base;    \/* 栈基地址 *\/$/;"	m	struct:__anon1
+buf	./client.c	/^    char *buf;$/;"	m	struct:data_buf	file:
+buf	./client_b.c	/^    char *buf;$/;"	m	struct:data_buf	file:
+buf_calloc	./client.c	/^data_buf_t* buf_calloc() $/;"	f
+buf_calloc	./client_b.c	/^data_buf_t* buf_calloc() $/;"	f
+buf_cfree	./client.c	/^void buf_cfree(data_buf_t* t)$/;"	f
+buf_cfree	./client_b.c	/^void buf_cfree(data_buf_t* t)$/;"	f
+bytes	./client.c	/^    size_t bytes;$/;"	m	struct:data_buf	file:
+bytes	./client_b.c	/^    size_t bytes;$/;"	m	struct:data_buf	file:
+client_cntx_t	./client.c	/^}client_cntx_t;$/;"	t	typeref:struct:__anon11	file:
+client_cntx_t	./client_b.c	/^}client_cntx_t;$/;"	t	typeref:struct:__anon9	file:
+client_conn	./client.c	/^typedef struct client_conn$/;"	s	file:
+client_conn	./client_b.c	/^typedef struct client_conn$/;"	s	file:
+client_conn_head_ntoh	./client.c	/^void client_conn_head_ntoh(conn_bin_head_t* bh)$/;"	f
+client_conn_head_ntoh	./client_b.c	/^void client_conn_head_ntoh(conn_bin_head_t* bh)$/;"	f
+client_conn_t	./client.c	/^}client_conn_t;$/;"	t	typeref:struct:client_conn	file:
+client_conn_t	./client_b.c	/^}client_conn_t;$/;"	t	typeref:struct:client_conn	file:
+client_connect_access	./client.c	/^int client_connect_access()$/;"	f
+client_connect_access	./client_b.c	/^int client_connect_access()$/;"	f
+client_create_worker	./client.c	/^static void client_create_worker(void *(*func)(void *))$/;"	f	file:
+client_ctx_init	./client.c	/^int client_ctx_init(client_cntx_t *ctx, client_conn_t *conn)$/;"	f
+client_ctx_init	./client_b.c	/^int client_ctx_init(client_cntx_t *ctx, client_conn_t *conn)$/;"	f
+client_echo_send	./client.c	/^int client_echo_send(int fd, data_buf_t *echo_mess)$/;"	f
+client_echo_send	./client_b.c	/^int client_echo_send(int fd, data_buf_t *echo_mess)$/;"	f
+client_epoll_out_to_in	./client.c	/^void client_epoll_out_to_in(client_cntx_t *ctx, client_conn_t *c)$/;"	f
+client_epoll_out_to_in	./client_b.c	/^void client_epoll_out_to_in(client_cntx_t *ctx, client_conn_t *c)$/;"	f
+client_event_proc	./client.c	/^void client_event_proc(client_cntx_t *ctx)$/;"	f
+client_event_proc	./client_b.c	/^void client_event_proc(client_cntx_t *ctx)$/;"	f
+client_launch	./client.c	/^int client_launch(client_cntx_t *ctx, client_conn_t *c)$/;"	f
+client_launch	./client_b.c	/^int client_launch(client_cntx_t *ctx, client_conn_t *c)$/;"	f
+client_package_mess	./client.c	/^int client_package_mess(client_cntx_t *ctx, client_conn_t *c, int cmd, const char *mess) $/;"	f
+client_package_mess	./client_b.c	/^int client_package_mess(client_cntx_t *ctx, client_conn_t *c, int cmd, const char *mess) $/;"	f
+client_read_data	./client.c	/^enum client_read_ret client_read_data(int cli_conn, data_buf_t* recvbuf, int *n)$/;"	f
+client_read_data	./client_b.c	/^enum client_read_ret client_read_data(int cli_conn, data_buf_t* recvbuf, int *n)$/;"	f
+client_read_ret	./client.c	/^enum client_read_ret$/;"	g	file:
+client_read_ret	./client_b.c	/^enum client_read_ret$/;"	g	file:
+client_recv_data_proc	./client.c	/^int client_recv_data_proc(client_cntx_t *ctx, client_conn_t *c, char *message, int cmd)$/;"	f
+client_recv_data_proc	./client_b.c	/^int client_recv_data_proc(client_cntx_t *ctx, client_conn_t *c, char *message, int cmd)$/;"	f
+client_recv_proc	./client.c	/^int client_recv_proc(client_cntx_t *ctx, client_conn_t *c) $/;"	f
+client_recv_proc	./client_b.c	/^int client_recv_proc(client_cntx_t *ctx, client_conn_t *c) $/;"	f
+client_send_proc	./client.c	/^int client_send_proc(client_cntx_t *ctx, client_conn_t *c)$/;"	f
+client_send_proc	./client_b.c	/^int client_send_proc(client_cntx_t *ctx, client_conn_t *c)$/;"	f
+client_to_work	./client.c	/^static void *client_to_work()$/;"	f	file:
+cmd	./beifen/le1w_client.c	/^   uint32_t cmd;$/;"	m	struct:send_mess	file:
+cmd	./beifen/le1w_client_mutithread.c	/^   uint32_t cmd;$/;"	m	struct:send_mess	file:
+cmd	./beifen/le1w_client_mutithread_0818_mor.c	/^   uint32_t cmd;$/;"	m	struct:send_mess	file:
+cmd	./client.c	/^    uint32_t cmd;$/;"	m	struct:__anon12	file:
+cmd	./client_b.c	/^    uint32_t cmd;$/;"	m	struct:__anon10	file:
+cmd	./le1w_client_mutithread.c	/^   uint32_t cmd;$/;"	m	struct:send_mess	file:
+cmp_cb_int16	./comm.h	/^static inline int cmp_cb_int16(const key_obj_t *key1, const key_obj_t *key2) { return (*(int16_t *)key1->k - *(int16_t *)key2->k); }$/;"	f
+cmp_cb_int32	./comm.h	/^static inline int cmp_cb_int32(const key_obj_t *key1, const key_obj_t *key2) { return (*(int32_t *)key1->k - *(int32_t *)key2->k); }$/;"	f
+cmp_cb_int64	./comm.h	/^static inline int cmp_cb_int64(const key_obj_t *key1, const key_obj_t *key2) { return (*(int64_t *)key1->k - *(int64_t *)key2->k); }$/;"	f
+cmp_cb_ptr	./comm.h	/^static inline int cmp_cb_ptr(const key_obj_t *key1, const key_obj_t *key2) { return (*(uint64_t *)key1->k - *(uint64_t *)key2->k); }$/;"	f
+cmp_cb_str	./comm.h	/^static inline int cmp_cb_str(const key_obj_t *key1, const key_obj_t *key2) { return strcmp((char *)key1->k, (char *)key2->k); }$/;"	f
+cmp_cb_t	./comm.h	/^typedef int (*cmp_cb_t)(const void *data, const void *orig);$/;"	t
+conn_bin_head_t	./client.c	/^}conn_bin_head_t;$/;"	t	typeref:struct:__anon12	file:
+conn_bin_head_t	./client_b.c	/^}conn_bin_head_t;$/;"	t	typeref:struct:__anon10	file:
+cons	./ring.h	/^    } cons;$/;"	m	struct:__anon6	typeref:struct:__anon6::__anon8
+cpu_ticket_get	./comm.h	/^static inline unsigned long cpu_ticket_get(void)$/;"	f
+create_worker	./beifen/le1w_client_mutithread.c	/^static void create_worker(void *(*func)(void *))                        $/;"	f	file:
+create_worker	./beifen/le1w_client_mutithread_0818_mor.c	/^static void create_worker(void *(*func)(void *))                        $/;"	f	file:
+create_worker	./le1w_client_mutithread.c	/^static void create_worker(void *(*func)(void *))                        $/;"	f	file:
+curr	./client.c	/^    char *curr;$/;"	m	struct:data_buf	file:
+curr	./client_b.c	/^    char *curr;$/;"	m	struct:data_buf	file:
+data	./ring.h	/^    void **data;                            \/* 指针数组(对其构造循环队列) *\/$/;"	m	struct:__anon6
+data1	./beifen/le1w_client.c	/^const char *data1 = "Hello World!!";$/;"	v
+data1	./beifen/le1w_client_mutithread.c	/^const char *data1 = "Hello World!!";$/;"	v
+data1	./beifen/le1w_client_mutithread_0818_mor.c	/^const char *data1 = "Hello World!!";$/;"	v
+data1	./client.c	/^const char *data1 = "Hello World!!";$/;"	v
+data1	./client_b.c	/^const char *data1 = "Hello World!!";$/;"	v
+data1	./le1w_client_mutithread.c	/^const char *data1 = "Hello World!!";$/;"	v
+data2	./beifen/le1w_client.c	/^const char *data2 = "Hello Company...";$/;"	v
+data2	./beifen/le1w_client_mutithread.c	/^const char *data2 = "Hello Company...";$/;"	v
+data2	./beifen/le1w_client_mutithread_0818_mor.c	/^const char *data2 = "Hello Company...";$/;"	v
+data2	./client.c	/^const char *data2 = "Hello Company...";$/;"	v
+data2	./client_b.c	/^const char *data2 = "Hello Company...";$/;"	v
+data2	./le1w_client_mutithread.c	/^const char *data2 = "Hello Company...";$/;"	v
+data3	./beifen/le1w_client.c	/^const char *data3 = "Hello Whut~~";$/;"	v
+data3	./beifen/le1w_client_mutithread.c	/^const char *data3 = "Hello Whut~~";$/;"	v
+data3	./beifen/le1w_client_mutithread_0818_mor.c	/^const char *data3 = "Hello Whut~~";$/;"	v
+data3	./le1w_client_mutithread.c	/^const char *data3 = "Hello Whut~~";$/;"	v
+data_buf	./client.c	/^typedef struct data_buf$/;"	s	file:
+data_buf	./client_b.c	/^typedef struct data_buf$/;"	s	file:
+data_buf_t	./client.c	/^}data_buf_t;$/;"	t	typeref:struct:data_buf	file:
+data_buf_t	./client_b.c	/^}data_buf_t;$/;"	t	typeref:struct:data_buf	file:
+div_ceiling	./redo.h	36;"	d
+epfd	./client.c	/^    int epfd; $/;"	m	struct:__anon11	file:
+epfd	./client_b.c	/^    int epfd; $/;"	m	struct:__anon9	file:
+ev_remov	./client.c	/^    struct epoll_event ev_remov;$/;"	m	struct:__anon11	typeref:struct:__anon11::epoll_event	file:
+ev_remov	./client_b.c	/^    struct epoll_event ev_remov;$/;"	m	struct:__anon9	typeref:struct:__anon9::epoll_event	file:
+events	./client.c	/^    struct epoll_event events[MAX_EVENTS];$/;"	m	struct:__anon11	typeref:struct:__anon11::epoll_event	file:
+events	./client_b.c	/^    struct epoll_event events[MAX_EVENTS];$/;"	m	struct:__anon9	typeref:struct:__anon9::epoll_event	file:
+extra	./beifen/le1w_client_mutithread_0818_mor.c	/^   char extra[EXBUF_SIZE];$/;"	m	struct:send_mess	file:
+extra	./client.c	/^    char extra[EXBUF_SIZE];$/;"	m	struct:__anon12	file:
+extra	./client_b.c	/^    char extra[EXBUF_SIZE];$/;"	m	struct:__anon10	file:
+extra	./le1w_client_mutithread.c	/^   char extra[EXBUF_SIZE];$/;"	m	struct:send_mess	file:
+fd	./client.c	/^    int fd;$/;"	m	struct:client_conn	file:
+fd	./client_b.c	/^    int fd;$/;"	m	struct:client_conn	file:
+fd_set_noblocking	./beifen/le1w_client_noblocking.c	/^int fd_set_noblocking(int fd){                                                  $/;"	f
+fd_set_noblocking	./client.c	39;"	d	file:
+fd_set_noblocking	./client_b.c	39;"	d	file:
+find_cb_t	./comm.h	/^typedef bool (*find_cb_t)(void *data, void *args);$/;"	t
+head	./ring.h	/^        volatile unsigned int head;         \/* 消费者: 头索引(注: 其值一直往上递增) *\/$/;"	m	struct:__anon6::__anon8
+head	./ring.h	/^        volatile unsigned int head;         \/* 生产者: 头索引(注: 其值一直往上递增) *\/$/;"	m	struct:__anon6::__anon7
+k	./comm.h	/^    void *k;    \/* 主键 *\/$/;"	m	struct:__anon5
+key_cb_t	./comm.h	/^typedef int64_t (*key_cb_t)(const void *pkey, size_t pkey_len);$/;"	t
+key_obj_t	./comm.h	/^} key_obj_t;$/;"	t	typeref:struct:__anon5
+l	./comm.h	/^    size_t l;   \/* 主键长(当为字串时，其为字串长+1) *\/$/;"	m	struct:__anon5
+len	./client.c	/^    uint32_t len;$/;"	m	struct:__anon12	file:
+len	./client_b.c	/^    uint32_t len;$/;"	m	struct:__anon10	file:
+length	./beifen/le1w_client.c	/^   uint32_t length;$/;"	m	struct:send_mess	file:
+length	./beifen/le1w_client_mutithread.c	/^   uint32_t length;$/;"	m	struct:send_mess	file:
+length	./beifen/le1w_client_mutithread_0818_mor.c	/^   uint32_t length;$/;"	m	struct:send_mess	file:
+length	./le1w_client_mutithread.c	/^   uint32_t length;$/;"	m	struct:send_mess	file:
+local_time	./redo.c	/^struct tm *local_time(const time_t *timep, struct tm *result)$/;"	f
+main	./beifen/le1w_client.c	/^int main(){$/;"	f
+main	./beifen/le1w_client_mutithread.c	/^int main(int argc,char** argv){$/;"	f
+main	./beifen/le1w_client_mutithread_0818_mor.c	/^int main(int argc,char** argv){$/;"	f
+main	./beifen/le1w_client_noblocking.c	/^int main(){$/;"	f
+main	./client.c	/^int main(int argc,char** argv)$/;"	f
+main	./client_b.c	/^int main()$/;"	f
+main	./le1w_client_mutithread.c	/^int main(int argc,char** argv){$/;"	f
+mask	./ring.h	/^    unsigned int mask;                      \/* 掩码值Mask = (max - 1) *\/$/;"	m	struct:__anon6
+max	./ring.h	/^    unsigned int max;                       \/* 队列容量(注: 必须为2的次方) *\/$/;"	m	struct:__anon6
+max	./stack.h	/^    int max;        \/* 栈的大小 *\/$/;"	m	struct:__anon1
+mem_align	./comm.h	126;"	d
+mem_align_ptr	./comm.h	127;"	d
+mem_alloc	./redo.c	/^void *mem_alloc(void *pool, size_t size)$/;"	f
+mem_alloc_cb_t	./comm.h	/^typedef void * (*mem_alloc_cb_t)(void *pool, size_t size);$/;"	t
+mem_dealloc	./redo.c	/^void mem_dealloc(void *pool, void *p)$/;"	f
+mem_dealloc_cb_t	./comm.h	/^typedef void (*mem_dealloc_cb_t)(void *pool, void *p);$/;"	t
+mem_dummy_dealloc	./comm.h	/^static inline void mem_dummy_dealloc(void *pool, void *p) { }$/;"	f
+memalign_alloc	./redo.c	/^void *memalign_alloc(size_t alignment, size_t size)$/;"	f
+memalign_alloc	./redo.h	28;"	d
+memalign_alloc	./redo.h	30;"	d
+mess	./beifen/le1w_client.c	/^   char mess[0];$/;"	m	struct:send_mess	file:
+mess	./beifen/le1w_client_mutithread.c	/^   char mess[0];$/;"	m	struct:send_mess	file:
+mess	./beifen/le1w_client_mutithread_0818_mor.c	/^   char mess[0];$/;"	m	struct:send_mess	file:
+mess	./client.c	/^    char mess[0];$/;"	m	struct:__anon12	file:
+mess	./client_b.c	/^    char mess[0];$/;"	m	struct:__anon10	file:
+mess	./le1w_client_mutithread.c	/^   char mess[0];$/;"	m	struct:send_mess	file:
+nid	./comm.h	/^            uint32_t nid:16;                    \/* 结点ID *\/$/;"	m	struct:__anon2::__anon3::__anon4
+num	./ring.h	/^    volatile unsigned int num;              \/* 队列成员个数 *\/$/;"	m	struct:__anon6
+offsetof	./comm.h	133;"	d
+pack_data	./beifen/le1w_client.c	/^struct send_mess *pack_data(const char *data, uint32_t cmd){$/;"	f
+pack_data	./beifen/le1w_client_mutithread.c	/^struct send_mess *pack_data(const char *data, uint32_t cmd){$/;"	f
+pack_data	./beifen/le1w_client_mutithread_0818_mor.c	/^struct send_mess *pack_data(const char *data, uint32_t cmd){$/;"	f
+pack_data	./le1w_client_mutithread.c	/^struct send_mess *pack_data(const char *data, uint32_t cmd){$/;"	f
+print_cb_t	./comm.h	/^typedef bool (*print_cb_t)(void *data);$/;"	t
+proc_is_exist	./redo.c	/^bool proc_is_exist(pid_t pid)$/;"	f
+prod	./ring.h	/^    } prod;$/;"	m	struct:__anon6	typeref:struct:__anon6::__anon7
+recv_buf	./client.c	/^    data_buf_t *recv_buf;$/;"	m	struct:client_conn	file:
+recv_buf	./client_b.c	/^    data_buf_t *recv_buf;$/;"	m	struct:client_conn	file:
+ret_ep_events	./client.c	/^    int ret_ep_events;$/;"	m	struct:__anon11	file:
+ret_ep_events	./client_b.c	/^    int ret_ep_events;$/;"	m	struct:__anon9	file:
+ring_creat	./ring.c	/^ring_t *ring_creat(int max)$/;"	f
+ring_destroy	./ring.c	/^void ring_destroy(ring_t *rq)$/;"	f
+ring_get_max	./ring.h	37;"	d
+ring_get_num	./ring.h	38;"	d
+ring_mpop	./ring.c	/^int ring_mpop(ring_t *rq, void **addr, unsigned int num)$/;"	f
+ring_mpush	./ring.c	/^int ring_mpush(ring_t *rq, void **addr, unsigned int num)$/;"	f
+ring_pop	./ring.c	/^void *ring_pop(ring_t *rq)$/;"	f
+ring_print	./ring.c	/^void ring_print(ring_t *rq)$/;"	f
+ring_push	./ring.c	/^int ring_push(ring_t *rq, void *addr)$/;"	f
+ring_t	./ring.h	/^} ring_t;$/;"	t	typeref:struct:__anon6
+send_heart	./le1w_client_mutithread.c	/^static void *send_heart(void *cli_fd){$/;"	f	file:
+send_mess	./beifen/le1w_client.c	/^typedef struct send_mess{$/;"	s	file:
+send_mess	./beifen/le1w_client.c	/^}send_mess;$/;"	t	typeref:struct:send_mess	file:
+send_mess	./beifen/le1w_client_mutithread.c	/^typedef struct send_mess{$/;"	s	file:
+send_mess	./beifen/le1w_client_mutithread.c	/^}send_mess;$/;"	t	typeref:struct:send_mess	file:
+send_mess	./beifen/le1w_client_mutithread_0818_mor.c	/^typedef struct send_mess{$/;"	s	file:
+send_mess	./beifen/le1w_client_mutithread_0818_mor.c	/^}send_mess;$/;"	t	typeref:struct:send_mess	file:
+send_mess	./le1w_client_mutithread.c	/^typedef struct send_mess{$/;"	s	file:
+send_mess	./le1w_client_mutithread.c	/^}send_mess;$/;"	t	typeref:struct:send_mess	file:
+send_queue	./client.c	/^    ring_t *send_queue;$/;"	m	struct:client_conn	file:
+send_queue	./client_b.c	/^    ring_t *send_queue;$/;"	m	struct:client_conn	file:
+seq	./comm.h	/^            uint32_t seq;                       \/* 顺序号 *\/$/;"	m	struct:__anon2::__anon3::__anon4
+serial	./comm.h	/^        uint64_t serial;                        \/* 序列号 *\/$/;"	m	union:__anon2::__anon3
+serial_t	./comm.h	/^} serial_t;$/;"	t	typeref:struct:__anon2
+set_fd_limit	./redo.c	/^int set_fd_limit(int max)$/;"	f
+sid	./comm.h	/^            uint32_t sid:16;                    \/* 服务ID *\/$/;"	m	struct:__anon2::__anon3::__anon4
+size	./client.c	/^    size_t size;$/;"	m	struct:data_buf	file:
+size	./client_b.c	/^    size_t size;$/;"	m	struct:data_buf	file:
+stack_depth	./stack.h	124;"	d
+stack_destroy	./stack.h	/^static inline int stack_destroy(Stack_t *stack)$/;"	f
+stack_empty	./stack.h	122;"	d
+stack_gettop	./stack.h	123;"	d
+stack_init	./stack.h	/^static inline int stack_init(Stack_t *stack, int max)$/;"	f
+stack_maxdepth	./stack.h	125;"	d
+stack_pop	./stack.h	/^static inline void *stack_pop(Stack_t *stack)$/;"	f
+stack_push	./stack.h	/^static inline int stack_push(Stack_t *stack, void *node)$/;"	f
+tail	./ring.h	/^        volatile unsigned int tail;         \/* 消费者: 尾索引(注: 其值一直往上递增) *\/$/;"	m	struct:__anon6::__anon8
+tail	./ring.h	/^        volatile unsigned int tail;         \/* 生产者: 尾索引(注: 其值一直往上递增) *\/$/;"	m	struct:__anon6::__anon7
+to_work	./beifen/le1w_client_mutithread.c	/^static void *to_work(){$/;"	f	file:
+to_work	./beifen/le1w_client_mutithread_0818_mor.c	/^static void *to_work(){$/;"	f	file:
+to_work	./le1w_client_mutithread.c	/^static void *to_work(){$/;"	f	file:
+top	./stack.h	/^    void **top;     \/* 栈顶地址 *\/$/;"	m	struct:__anon1
+trav_cb_t	./comm.h	/^typedef int (*trav_cb_t)(void *data, void *args);$/;"	t
+tree_delete_cb_t	./comm.h	/^typedef int (*tree_delete_cb_t)(void *tree, void *key, int key_len, void *data);$/;"	t
+tree_destroy_cb_t	./comm.h	/^typedef void (*tree_destroy_cb_t)(void *tree);$/;"	t
+tree_insert_cb_t	./comm.h	/^typedef int (*tree_insert_cb_t)(void *tree, void *key, int key_len, void *data);$/;"	t
+tree_query_cb_t	./comm.h	/^typedef void *(*tree_query_cb_t)(void *tree, void *key, int key_len);$/;"	t
+tree_trav_cb_t	./comm.h	/^typedef void (*tree_trav_cb_t)(void *tree, trav_cb_t proc, void *args);$/;"	t

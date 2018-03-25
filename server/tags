@@ -1,0 +1,333 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADD_FD	./le1w_svr.h	34;"	d
+AVL_EH	./avl_tree.h	8;"	d
+AVL_ERR	./avl_tree.h	/^    , AVL_ERR = ~0x7FFFFFFF     \/* 失败 *\/$/;"	e	enum:__anon14
+AVL_ERR_NOT_FOUND	./avl_tree.h	/^    , AVL_ERR_NOT_FOUND         \/* 未找到 *\/$/;"	e	enum:__anon14
+AVL_ERR_STACK	./avl_tree.h	/^    , AVL_ERR_STACK             \/* 栈异常 *\/$/;"	e	enum:__anon14
+AVL_LH	./avl_tree.h	9;"	d
+AVL_MAX_DEPTH	./avl_tree.h	11;"	d
+AVL_NODE_EXIST	./avl_tree.h	/^    , AVL_NODE_EXIST            \/* 节点已存在 *\/$/;"	e	enum:__anon14
+AVL_OK	./avl_tree.h	/^    AVL_OK                      \/* 成功 *\/$/;"	e	enum:__anon14
+AVL_RH	./avl_tree.h	7;"	d
+BIN	./comm.h	63;"	d
+BUFFER_SIZE	./le1w_svr.h	29;"	d
+CLOSE	./redo.h	13;"	d
+CMD_1	./le1w_svr.h	31;"	d
+CMD_2	./le1w_svr.h	32;"	d
+CMD_LINE_MAX_LEN	./comm.h	49;"	d
+DEC	./comm.h	65;"	d
+DIR_MODE	./redo.h	8;"	d
+EIGHT_EAST_AREA_TM_DIFF_SEC	./redo.c	444;"	d	file:
+EPOLL_THREAD_NUM	./le1w_svr.h	26;"	d
+ERR_MSG_MAX_LEN	./comm.h	53;"	d
+EXBUF_SIZE	./le1w_svr.h	30;"	d
+FCLOSE	./redo.h	14;"	d
+FILE_LINE_MAX_LEN	./comm.h	47;"	d
+FILE_NAME_MAX_LEN	./comm.h	45;"	d
+FILE_PATH_MAX_LEN	./comm.h	46;"	d
+FREE	./le1w_svr.h	39;"	d
+FREE	./redo.h	15;"	d
+GB	./comm.h	73;"	d
+HEART_BEAT	./le1w_svr.h	33;"	d
+HEX	./comm.h	66;"	d
+INT_MAX_LEN	./comm.h	55;"	d
+INVALID_FD	./comm.h	59;"	d
+INVALID_PID	./comm.h	60;"	d
+IP_ADDR_MAX_LEN	./comm.h	48;"	d
+ISPOWEROF2	./comm.h	68;"	d
+KB	./comm.h	71;"	d
+MAX	./comm.h	/^static inline int MAX(int a, int b) { return ((a) > (b) ? (a) : (b)); }$/;"	f
+MAX_EVENTS	./le1w_svr.h	25;"	d
+MB	./comm.h	72;"	d
+MD5_SUM_CHK_LEN	./comm.h	57;"	d
+MIN	./comm.h	/^static inline int MIN(int a, int b) { return ((a) < (b) ? (a) : (b)); }$/;"	f
+MYPORT	./le1w_svr.h	27;"	d
+Mkdir	./redo.c	/^int Mkdir(const char *dir, mode_t mode)$/;"	f
+Mkdir2	./redo.c	/^int Mkdir2(const char *fname, mode_t mode)$/;"	f
+NODE_MAX_LEN	./comm.h	54;"	d
+OCT	./comm.h	64;"	d
+ONE_YEAR_HOURS	./redo.c	443;"	d	file:
+OPEN_FLAGS	./redo.h	7;"	d
+OPEN_MODE	./redo.h	6;"	d
+Open	./redo.c	/^int Open(const char *fname, int flags, mode_t mode)$/;"	f
+PTR_ALIGNMENT	./comm.h	129;"	d
+QUEUE	./le1w_svr.h	28;"	d
+QUEUE_NAME_MAX_LEN	./comm.h	51;"	d
+READ_DATA_RECEIVED	./le1w_svr.h	/^    READ_DATA_RECEIVED = 0,$/;"	e	enum:le1w_read_ret
+READ_ERROR	./le1w_svr.h	/^    READ_ERROR = 2$/;"	e	enum:le1w_read_ret
+READ_NO_DATA_RECEIVED	./le1w_svr.h	/^    READ_NO_DATA_RECEIVED = 1,$/;"	e	enum:le1w_read_ret
+Random	./redo.c	/^int Random(void)$/;"	f
+Readn	./redo.c	/^ssize_t Readn(int fd, void *buff, size_t n)$/;"	f
+Sleep	./redo.c	/^void Sleep(int sec)$/;"	f
+Stack_t	./stack.h	/^} Stack_t;$/;"	t	typeref:struct:__anon4
+System	./redo.c	/^int System(const char *cmd)$/;"	f
+TABLE_NAME_MAX_LEN	./comm.h	52;"	d
+TM_DAY	./comm.h	120;"	d
+TM_HOUR	./comm.h	121;"	d
+TM_MIN	./comm.h	122;"	d
+TM_SEC	./comm.h	123;"	d
+UDP_MAX_LEN	./comm.h	50;"	d
+Writen	./redo.c	/^ssize_t Writen(int fd, const void *buff, size_t n)$/;"	f
+__ATOMIC_H__	./atomic.h	2;"	d
+__AVL_TREE_H__	./avl_tree.h	2;"	d
+__COMM_H__	./comm.h	2;"	d
+__LIST_H__	./list.h	2;"	d
+__REDO_H__	./redo.h	2;"	d
+__RING_H__	./ring.h	2;"	d
+__STACK_H__	./stack.h	10;"	d
+_avl_delete	./avl_tree.c	/^static int _avl_delete(avl_tree_t *tree,$/;"	f	file:
+_avl_destroy	./avl_tree.c	/^static void _avl_destroy(avl_tree_t *tree, avl_node_t *node, mem_dealloc_cb_t dealloc, void *args)$/;"	f	file:
+_avl_find	./avl_tree.c	/^static void *_avl_find(avl_node_t *node, find_cb_t find, void *args)$/;"	f	file:
+_avl_insert	./avl_tree.c	/^static int _avl_insert(avl_tree_t *tree, avl_node_t *node, bool *taller, void *data)$/;"	f	file:
+_avl_print	./avl_tree.c	/^int _avl_print(avl_node_t *root, Stack_t *stack)$/;"	f
+_avl_trav	./avl_tree.c	/^static int _avl_trav(avl_node_t *node, trav_cb_t proc, void *args)$/;"	f	file:
+_list_node_t	./list.h	/^typedef struct _list_node_t$/;"	s
+_node_t	./avl_tree.h	/^typedef struct _node_t$/;"	s
+accept_queue	./le1w_svr.h	/^    ring_t *accept_queue[EPOLL_THREAD_NUM];  \/* > accept接收队列 *\/$/;"	m	struct:__anon12
+alive_time	./le1w_svr.h	/^    time_t alive_time;   \/* > 最后一次活跃时间 *\/$/;"	m	struct:le1w_conn
+alloc	./avl_tree.h	/^    mem_alloc_cb_t alloc;       \/* 申请内存 *\/$/;"	m	struct:__anon15
+alloc	./avl_tree.h	/^    mem_alloc_cb_t alloc;       \/* 申请内存 *\/$/;"	m	struct:__anon16
+alloc	./list.h	/^        mem_alloc_cb_t alloc;       \/* 申请空间 *\/$/;"	m	struct:__anon2::__anon3
+alloc	./list.h	/^    mem_alloc_cb_t alloc;           \/* 申请空间 *\/$/;"	m	struct:__anon1
+atomic16_add	./atomic.h	/^static inline uint16_t atomic16_add(volatile uint16_t *v, uint16_t i)$/;"	f
+atomic16_cmp_and_set	./atomic.h	/^static inline int atomic16_cmp_and_set(volatile uint16_t *v, uint16_t cmp, uint16_t i)$/;"	f
+atomic16_dec	./atomic.h	/^static inline uint16_t atomic16_dec(volatile uint16_t *v)$/;"	f
+atomic16_inc	./atomic.h	/^static inline uint16_t atomic16_inc(volatile uint16_t *v)$/;"	f
+atomic16_set	./atomic.h	/^static inline uint16_t atomic16_set(volatile uint16_t *v, uint64_t i)$/;"	f
+atomic16_sub	./atomic.h	/^static inline uint16_t atomic16_sub(volatile uint16_t *v, uint16_t i)$/;"	f
+atomic16_xadd	./atomic.h	/^static inline uint16_t atomic16_xadd(volatile uint16_t *v, uint16_t i)$/;"	f
+atomic16_xdec	./atomic.h	/^static inline uint16_t atomic16_xdec(volatile uint16_t *v)$/;"	f
+atomic16_xinc	./atomic.h	/^static inline uint16_t atomic16_xinc(volatile uint16_t *v)$/;"	f
+atomic16_xset	./atomic.h	/^static inline uint16_t atomic16_xset(volatile uint16_t *v, uint16_t i)$/;"	f
+atomic16_xsub	./atomic.h	/^static inline uint16_t atomic16_xsub(volatile uint16_t *v, uint16_t i)$/;"	f
+atomic32_add	./atomic.h	/^static inline uint32_t atomic32_add(volatile uint32_t *v, uint32_t i)$/;"	f
+atomic32_cmp_and_set	./atomic.h	/^static inline int atomic32_cmp_and_set(volatile uint32_t *v, uint32_t cmp, uint32_t i)$/;"	f
+atomic32_dec	./atomic.h	/^static inline uint32_t atomic32_dec(volatile uint32_t *v)$/;"	f
+atomic32_inc	./atomic.h	/^static inline uint32_t atomic32_inc(volatile uint32_t *v)$/;"	f
+atomic32_set	./atomic.h	/^static inline uint32_t atomic32_set(volatile uint32_t *v, uint32_t i)$/;"	f
+atomic32_sub	./atomic.h	/^static inline uint32_t atomic32_sub(volatile uint32_t *v, uint32_t i)$/;"	f
+atomic32_xadd	./atomic.h	/^static inline uint32_t atomic32_xadd(volatile uint32_t *v, uint32_t i)$/;"	f
+atomic32_xdec	./atomic.h	/^static inline uint32_t atomic32_xdec(volatile uint32_t *v)$/;"	f
+atomic32_xinc	./atomic.h	/^static inline uint32_t atomic32_xinc(volatile uint32_t *v)$/;"	f
+atomic32_xset	./atomic.h	/^static inline uint32_t atomic32_xset(volatile uint32_t *v, uint32_t i)$/;"	f
+atomic32_xsub	./atomic.h	/^static inline uint32_t atomic32_xsub(volatile uint32_t *v, uint32_t i)$/;"	f
+atomic64_add	./atomic.h	/^static inline uint64_t atomic64_add(volatile uint64_t *v, uint64_t i)$/;"	f
+atomic64_cmp_and_set	./atomic.h	/^static inline int atomic64_cmp_and_set(volatile uint64_t *v, uint64_t cmp, uint64_t i)$/;"	f
+atomic64_dec	./atomic.h	/^static inline uint64_t atomic64_dec(volatile uint64_t *v)$/;"	f
+atomic64_inc	./atomic.h	/^static inline uint64_t atomic64_inc(volatile uint64_t *v)$/;"	f
+atomic64_set	./atomic.h	/^static inline uint64_t atomic64_set(volatile uint64_t *v, uint64_t i)$/;"	f
+atomic64_sub	./atomic.h	/^static inline uint64_t atomic64_sub(volatile uint64_t *v, uint64_t i)$/;"	f
+atomic64_xadd	./atomic.h	/^static inline uint64_t atomic64_xadd(volatile uint64_t *v, uint64_t i)$/;"	f
+atomic64_xdec	./atomic.h	/^static inline uint64_t atomic64_xdec(volatile uint64_t *v)$/;"	f
+atomic64_xinc	./atomic.h	/^static inline uint64_t atomic64_xinc(volatile uint64_t *v)$/;"	f
+atomic64_xset	./atomic.h	/^static inline uint64_t atomic64_xset(volatile uint64_t *v, uint64_t i)$/;"	f
+atomic64_xsub	./atomic.h	/^static inline uint64_t atomic64_xsub(volatile uint64_t *v, uint64_t i)$/;"	f
+avl_assert	./avl_tree.c	/^void avl_assert(const avl_node_t *node)$/;"	f
+avl_creat	./avl_tree.c	/^avl_tree_t *avl_creat(avl_opt_t *opt, cmp_cb_t cmp_cb)$/;"	f
+avl_delete	./avl_tree.c	/^int avl_delete(avl_tree_t *tree, void *key, void **data)$/;"	f
+avl_delete_left_balance	./avl_tree.c	/^int avl_delete_left_balance(avl_tree_t *tree, avl_node_t *node, bool *lower)$/;"	f
+avl_delete_right_balance	./avl_tree.c	/^int avl_delete_right_balance(avl_tree_t *tree, avl_node_t *node, bool *lower)$/;"	f
+avl_destroy	./avl_tree.c	/^void avl_destroy(avl_tree_t *tree, mem_dealloc_cb_t dealloc_cb, void *args)$/;"	f
+avl_err_e	./avl_tree.h	/^} avl_err_e;$/;"	t	typeref:enum:__anon14
+avl_find	./avl_tree.c	/^void *avl_find(avl_tree_t *tree, find_cb_t find, void *args)$/;"	f
+avl_insert	./avl_tree.c	/^int avl_insert(avl_tree_t *tree, void *data)$/;"	f
+avl_insert_left	./avl_tree.c	/^static int avl_insert_left(avl_tree_t *tree, avl_node_t *node, bool *taller, void *data)$/;"	f	file:
+avl_insert_right	./avl_tree.c	/^static int avl_insert_right(avl_tree_t *tree, avl_node_t *node, bool *taller, void *data)$/;"	f	file:
+avl_isempty	./avl_tree.h	64;"	d
+avl_left_balance	./avl_tree.c	/^int avl_left_balance(avl_tree_t *tree, avl_node_t *node)$/;"	f
+avl_ll_balance	./avl_tree.c	/^int avl_ll_balance(avl_tree_t *tree, avl_node_t *node)$/;"	f
+avl_lr_balance	./avl_tree.c	/^int avl_lr_balance(avl_tree_t *tree, avl_node_t *node)$/;"	f
+avl_node_t	./avl_tree.h	/^} avl_node_t;$/;"	t	typeref:struct:_node_t
+avl_num	./avl_tree.h	65;"	d
+avl_opt_t	./avl_tree.h	/^} avl_opt_t;$/;"	t	typeref:struct:__anon15
+avl_print	./avl_tree.c	/^int avl_print(avl_tree_t *tree)$/;"	f
+avl_print_head	./avl_tree.c	/^static void avl_print_head(avl_node_t *node, int depth)$/;"	f	file:
+avl_print_tail	./avl_tree.c	/^static void avl_print_tail(avl_node_t *node, int depth)$/;"	f	file:
+avl_query	./avl_tree.c	/^void *avl_query(avl_tree_t *tree, void *key)$/;"	f
+avl_replace_and_delete	./avl_tree.c	/^int avl_replace_and_delete(avl_tree_t *tree,$/;"	f
+avl_replace_child	./avl_tree.c	36;"	d	file:
+avl_right_balance	./avl_tree.c	/^static int avl_right_balance(avl_tree_t *tree, avl_node_t *node)$/;"	f	file:
+avl_rl_balance	./avl_tree.c	/^int avl_rl_balance(avl_tree_t *tree, avl_node_t *node)$/;"	f
+avl_rr_balance	./avl_tree.c	/^static int avl_rr_balance(avl_tree_t *tree, avl_node_t *node)$/;"	f	file:
+avl_set_lchild	./avl_tree.c	18;"	d	file:
+avl_set_rchild	./avl_tree.c	27;"	d	file:
+avl_trav	./avl_tree.c	/^int avl_trav(avl_tree_t *tree, trav_cb_t proc, void *args)$/;"	f
+avl_tree_t	./avl_tree.h	/^} avl_tree_t;$/;"	t	typeref:struct:__anon16
+base	./stack.h	/^    void **base;    \/* 栈基地址 *\/$/;"	m	struct:__anon4
+bf	./avl_tree.h	/^    int bf;                     \/* 平衡因子 *\/$/;"	m	struct:_node_t
+buf	./le1w_svr.h	/^    char *buf;$/;"	m	struct:data_buf
+buf_alloc	./le1w_svr.c	/^data_buf_t* buf_alloc()$/;"	f
+buf_cmp_cb	./le1w_svr.c	/^static int buf_cmp_cb(le1w_conn_t *reg1, le1w_conn_t *reg2)$/;"	f	file:
+buf_free	./le1w_svr.c	/^void buf_free(data_buf_t* t)$/;"	f
+bytes	./le1w_svr.h	/^    size_t bytes;$/;"	m	struct:data_buf
+close_conn	./le1w_svr.c	/^void close_conn(le1w_cntx_t *ctx, le1w_conn_t *c, int *idx)$/;"	f
+cmd	./le1w_svr.h	/^    uint32_t cmd;$/;"	m	struct:recv_head
+cmp_cb	./avl_tree.h	/^    cmp_cb_t cmp_cb;            \/* 数值比较回调 *\/$/;"	m	struct:__anon16
+cmp_cb_int16	./comm.h	/^static inline int cmp_cb_int16(const key_obj_t *key1, const key_obj_t *key2) { return (*(int16_t *)key1->k - *(int16_t *)key2->k); }$/;"	f
+cmp_cb_int32	./comm.h	/^static inline int cmp_cb_int32(const key_obj_t *key1, const key_obj_t *key2) { return (*(int32_t *)key1->k - *(int32_t *)key2->k); }$/;"	f
+cmp_cb_int64	./comm.h	/^static inline int cmp_cb_int64(const key_obj_t *key1, const key_obj_t *key2) { return (*(int64_t *)key1->k - *(int64_t *)key2->k); }$/;"	f
+cmp_cb_ptr	./comm.h	/^static inline int cmp_cb_ptr(const key_obj_t *key1, const key_obj_t *key2) { return (*(uint64_t *)key1->k - *(uint64_t *)key2->k); }$/;"	f
+cmp_cb_str	./comm.h	/^static inline int cmp_cb_str(const key_obj_t *key1, const key_obj_t *key2) { return strcmp((char *)key1->k, (char *)key2->k); }$/;"	f
+cmp_cb_t	./comm.h	/^typedef int (*cmp_cb_t)(const void *data, const void *orig);$/;"	t
+conn_recv_cb_t	./le1w_svr.h	/^typedef int (*conn_recv_cb_t)(void *ctx, void* c, void* idx);$/;"	t
+conn_send_cb_t	./le1w_svr.h	/^typedef int (*conn_send_cb_t)(void *ctx, void* c, void* idx);$/;"	t
+conn_tree	./le1w_svr.h	/^    avl_tree_t *conn_tree;    \/* > 所有链接消息（连接ptr地址为key） *\/$/;"	m	struct:__anon12
+cons	./ring.h	/^    } cons;$/;"	m	struct:__anon9	typeref:struct:__anon9::__anon11
+cpu_ticket_get	./comm.h	/^static inline unsigned long cpu_ticket_get(void)$/;"	f
+ctx	./le1w_svr.h	/^    le1w_cntx_t *ctx;$/;"	m	struct:__anon13
+curr	./le1w_svr.h	/^    char *curr;$/;"	m	struct:data_buf
+data	./avl_tree.h	/^    void *data;                 \/* 附加数据(注: 必须包含主键) *\/$/;"	m	struct:_node_t
+data	./list.h	/^    void *data;                     \/* 数据块 *\/$/;"	m	struct:_list_node_t
+data	./ring.h	/^    void **data;                            \/* 指针数组(对其构造循环队列) *\/$/;"	m	struct:__anon9
+data_buf	./le1w_svr.h	/^typedef struct data_buf$/;"	s
+data_buf_t	./le1w_svr.h	/^}data_buf_t;$/;"	t	typeref:struct:data_buf
+dealloc	./avl_tree.h	/^    mem_dealloc_cb_t dealloc;   \/* 释放内存 *\/$/;"	m	struct:__anon15
+dealloc	./avl_tree.h	/^    mem_dealloc_cb_t dealloc;   \/* 释放内存 *\/$/;"	m	struct:__anon16
+dealloc	./list.h	/^        mem_dealloc_cb_t dealloc;   \/* 释放空间 *\/$/;"	m	struct:__anon2::__anon3
+dealloc	./list.h	/^    mem_dealloc_cb_t dealloc;       \/* 释放空间 *\/$/;"	m	struct:__anon1
+div_ceiling	./redo.h	36;"	d
+epfd	./le1w_svr.h	/^    int epfd[EPOLL_THREAD_NUM];$/;"	m	struct:__anon12
+ev_remov	./le1w_svr.h	/^    struct epoll_event ev_remov;$/;"	m	struct:__anon12	typeref:struct:__anon12::epoll_event
+events	./le1w_svr.h	/^    struct epoll_event events[EPOLL_THREAD_NUM][MAX_EVENTS];$/;"	m	struct:__anon12	typeref:struct:__anon12::epoll_event
+extra	./le1w_svr.h	/^    char extra[EXBUF_SIZE];$/;"	m	struct:recv_head
+fd	./le1w_svr.h	/^    int fd;$/;"	m	struct:le1w_add_fd
+fd	./le1w_svr.h	/^    int fd;$/;"	m	struct:le1w_conn
+fd_set_noblocking	./le1w_svr.h	36;"	d
+find_cb_t	./comm.h	/^typedef bool (*find_cb_t)(void *data, void *args);$/;"	t
+flag	./le1w_svr.h	/^    int flag;$/;"	m	struct:__anon12
+g_le1w_ctx	./le1w_svr.c	/^le1w_cntx_t *g_le1w_ctx = NULL;$/;"	v
+head	./list.h	/^    list_node_t *head;              \/* 链表头 *\/$/;"	m	struct:__anon2
+head	./ring.h	/^        volatile unsigned int head;         \/* 消费者: 头索引(注: 其值一直往上递增) *\/$/;"	m	struct:__anon9::__anon11
+head	./ring.h	/^        volatile unsigned int head;         \/* 生产者: 头索引(注: 其值一直往上递增) *\/$/;"	m	struct:__anon9::__anon10
+id	./le1w_svr.h	/^    int *id;$/;"	m	struct:__anon13
+k	./comm.h	/^    void *k;    \/* 主键 *\/$/;"	m	struct:__anon8
+key_cb_t	./comm.h	/^typedef int64_t (*key_cb_t)(const void *pkey, size_t pkey_len);$/;"	t
+key_obj_t	./comm.h	/^} key_obj_t;$/;"	t	typeref:struct:__anon8
+l	./comm.h	/^    size_t l;   \/* 主键长(当为字串时，其为字串长+1) *\/$/;"	m	struct:__anon8
+lchild	./avl_tree.h	/^    struct _node_t *lchild;     \/* 左孩子 *\/$/;"	m	struct:_node_t	typeref:struct:_node_t::_node_t
+le1w_accept	./le1w_svr.c	/^int le1w_accept(le1w_cntx_t *ctx, int *idx)$/;"	f
+le1w_accept_proc	./le1w_svr.c	/^static void *le1w_accept_proc(void *args)$/;"	f	file:
+le1w_add_fd	./le1w_svr.c	/^int le1w_add_fd(le1w_cntx_t *ctx, int idx) {$/;"	f
+le1w_add_fd	./le1w_svr.h	/^typedef struct le1w_add_fd$/;"	s
+le1w_add_fd_t	./le1w_svr.h	/^}le1w_add_fd_t;$/;"	t	typeref:struct:le1w_add_fd
+le1w_beat_check_time	./le1w_svr.c	/^static int le1w_beat_check_time(le1w_conn_t *reg1, time_t now_time)$/;"	f	file:
+le1w_beat_proc	./le1w_svr.c	/^static void *le1w_beat_proc()$/;"	f	file:
+le1w_cntx_t	./le1w_svr.h	/^}le1w_cntx_t;$/;"	t	typeref:struct:__anon12
+le1w_conn	./le1w_svr.h	/^typedef struct le1w_conn$/;"	s
+le1w_conn_t	./le1w_svr.h	/^}le1w_conn_t;$/;"	t	typeref:struct:le1w_conn
+le1w_creat_thread	./le1w_svr.c	/^void le1w_creat_thread(void *(* func)(void *), void *args, void *id)$/;"	f
+le1w_ctx_init	./le1w_svr.c	/^le1w_cntx_t * le1w_ctx_init(int svr_fd)$/;"	f
+le1w_echo_send	./le1w_svr.c	/^int le1w_echo_send(int fd, data_buf_t *echo_mess)$/;"	f
+le1w_event_proc	./le1w_svr.c	/^void le1w_event_proc(le1w_cntx_t *ctx, int *idx, int ret_ep_events){$/;"	f
+le1w_get_ctx	./le1w_svr.h	41;"	d
+le1w_launch	./le1w_svr.c	/^static void *le1w_launch(void *args)$/;"	f	file:
+le1w_listen_port	./le1w_svr.c	/^int le1w_listen_port()$/;"	f
+le1w_pack_send_mess	./le1w_svr.c	/^void le1w_pack_send_mess(le1w_cntx_t *ctx, le1w_conn_t *c, int cmd, int *idx)$/;"	f
+le1w_read_data	./le1w_svr.c	/^enum le1w_read_ret le1w_read_data(int cli_conn, data_buf_t* recvbuf, int *n)$/;"	f
+le1w_read_ret	./le1w_svr.h	/^enum le1w_read_ret$/;"	g
+le1w_recv_data_proc	./le1w_svr.c	/^int le1w_recv_data_proc(le1w_cntx_t *ctx, le1w_conn_t *c, char *message, int head_cmd, int *idx)$/;"	f
+le1w_recv_head_t	./le1w_svr.h	/^}le1w_recv_head_t;$/;"	t	typeref:struct:recv_head
+le1w_recv_proc	./le1w_svr.c	/^int le1w_recv_proc(le1w_cntx_t *ctx, le1w_conn_t *c, int *idx)$/;"	f
+le1w_send_proc	./le1w_svr.c	/^int le1w_send_proc(le1w_cntx_t *ctx, le1w_conn_t *c, int *idx){$/;"	f
+le1w_set_ctx	./le1w_svr.h	40;"	d
+le1w_to_accept	./le1w_svr.c	/^int le1w_to_accept(le1w_cntx_t *ctx){$/;"	f
+length	./le1w_svr.h	/^    uint32_t length;$/;"	m	struct:recv_head
+list_assert	./list.c	/^void list_assert(list_t *list)$/;"	f
+list_creat	./list.c	/^list_t *list_creat(list_opt_t *opt)$/;"	f
+list_destroy	./list.c	/^void list_destroy(list_t *list, mem_dealloc_cb_t dealloc, void *pool)$/;"	f
+list_empty	./list.h	36;"	d
+list_fetch	./list.c	/^void *list_fetch(list_t *list, int idx)$/;"	f
+list_find	./list.c	/^void *list_find(list_t *list, find_cb_t cb, void *args)$/;"	f
+list_find_and_del	./list.c	/^void *list_find_and_del(list_t *list, find_cb_t cb, void *args)$/;"	f
+list_insert	./list.c	/^int list_insert(list_t *list, list_node_t *prev, void *data)$/;"	f
+list_length	./list.h	37;"	d
+list_lpop	./list.c	/^void *list_lpop(list_t *list)$/;"	f
+list_lpush	./list.c	/^int list_lpush(list_t *list, void *data)$/;"	f
+list_node_t	./list.h	/^} list_node_t;$/;"	t	typeref:struct:_list_node_t
+list_opt_t	./list.h	/^} list_opt_t;$/;"	t	typeref:struct:__anon1
+list_push_desc	./list.c	/^int list_push_desc(list_t *list, void *data, cmp_cb_t cmp)$/;"	f
+list_remove	./list.c	/^int list_remove(list_t *list, void *data)$/;"	f
+list_rpop	./list.c	/^void *list_rpop(list_t *list)$/;"	f
+list_rpush	./list.c	/^int list_rpush(list_t *list, void *data)$/;"	f
+list_t	./list.h	/^} list_t;$/;"	t	typeref:struct:__anon2
+list_trav	./list.c	/^int list_trav(list_t *list, trav_cb_t proc, void *args)$/;"	f
+local_time	./redo.c	/^struct tm *local_time(const time_t *timep, struct tm *result)$/;"	f
+main	./le1w_svr.c	/^int main()$/;"	f
+mask	./ring.h	/^    unsigned int mask;                      \/* 掩码值Mask = (max - 1) *\/$/;"	m	struct:__anon9
+max	./ring.h	/^    unsigned int max;                       \/* 队列容量(注: 必须为2的次方) *\/$/;"	m	struct:__anon9
+max	./stack.h	/^    int max;        \/* 栈的大小 *\/$/;"	m	struct:__anon4
+mem_align	./comm.h	126;"	d
+mem_align_ptr	./comm.h	127;"	d
+mem_alloc	./redo.c	/^void *mem_alloc(void *pool, size_t size)$/;"	f
+mem_alloc_cb_t	./comm.h	/^typedef void * (*mem_alloc_cb_t)(void *pool, size_t size);$/;"	t
+mem_dealloc	./redo.c	/^void mem_dealloc(void *pool, void *p)$/;"	f
+mem_dealloc_cb_t	./comm.h	/^typedef void (*mem_dealloc_cb_t)(void *pool, void *p);$/;"	t
+mem_dummy_dealloc	./comm.h	/^static inline void mem_dummy_dealloc(void *pool, void *p) { }$/;"	f
+memalign_alloc	./redo.c	/^void *memalign_alloc(size_t alignment, size_t size)$/;"	f
+memalign_alloc	./redo.h	28;"	d
+memalign_alloc	./redo.h	30;"	d
+mutex	./le1w_svr.h	/^    pthread_mutex_t mutex;$/;"	m	struct:__anon12
+next	./list.h	/^    struct _list_node_t *next;      \/* 下一结点 *\/$/;"	m	struct:_list_node_t	typeref:struct:_list_node_t::_list_node_t
+nid	./comm.h	/^            uint32_t nid:16;                    \/* 结点ID *\/$/;"	m	struct:__anon5::__anon6::__anon7
+num	./avl_tree.h	/^    uint64_t num;               \/* 结点数 *\/$/;"	m	struct:__anon16
+num	./list.h	/^    int num;                        \/* 结点数 *\/$/;"	m	struct:__anon2
+num	./ring.h	/^    volatile unsigned int num;              \/* 队列成员个数 *\/$/;"	m	struct:__anon9
+offsetof	./comm.h	133;"	d
+parent	./avl_tree.h	/^    struct _node_t *parent;     \/* 父节点 *\/$/;"	m	struct:_node_t	typeref:struct:_node_t::_node_t
+pipe_fd	./le1w_svr.h	/^    int pipe_fd[EPOLL_THREAD_NUM][2];    \/* > 管道 *\/$/;"	m	struct:__anon12
+pool	./avl_tree.h	/^    void *pool;                 \/* 内存池 *\/$/;"	m	struct:__anon15
+pool	./avl_tree.h	/^    void *pool;                 \/* 内存池 *\/$/;"	m	struct:__anon16
+pool	./list.h	/^        void *pool;                 \/* 内存池 *\/$/;"	m	struct:__anon2::__anon3
+pool	./list.h	/^    void *pool;                     \/* 内存池 *\/$/;"	m	struct:__anon1
+print_cb_t	./comm.h	/^typedef bool (*print_cb_t)(void *data);$/;"	t
+proc_is_exist	./redo.c	/^bool proc_is_exist(pid_t pid)$/;"	f
+prod	./ring.h	/^    } prod;$/;"	m	struct:__anon9	typeref:struct:__anon9::__anon10
+rchild	./avl_tree.h	/^    struct _node_t *rchild;     \/* 右孩子 *\/$/;"	m	struct:_node_t	typeref:struct:_node_t::_node_t
+recv_addr	./le1w_svr.h	/^    data_buf_t *recv_addr;$/;"	m	struct:le1w_conn
+recv_cb	./le1w_svr.h	/^    conn_recv_cb_t recv_cb;$/;"	m	struct:le1w_conn
+recv_head	./le1w_svr.h	/^typedef struct recv_head$/;"	s
+ring_creat	./ring.c	/^ring_t *ring_creat(int max)$/;"	f
+ring_destroy	./ring.c	/^void ring_destroy(ring_t *rq)$/;"	f
+ring_get_max	./ring.h	37;"	d
+ring_get_num	./ring.h	38;"	d
+ring_mpop	./ring.c	/^int ring_mpop(ring_t *rq, void **addr, unsigned int num)$/;"	f
+ring_mpush	./ring.c	/^int ring_mpush(ring_t *rq, void **addr, unsigned int num)$/;"	f
+ring_pop	./ring.c	/^void *ring_pop(ring_t *rq)$/;"	f
+ring_print	./ring.c	/^void ring_print(ring_t *rq)$/;"	f
+ring_push	./ring.c	/^int ring_push(ring_t *rq, void *addr)$/;"	f
+ring_t	./ring.h	/^} ring_t;$/;"	t	typeref:struct:__anon9
+root	./avl_tree.h	/^    avl_node_t *root;           \/* 根节点 *\/$/;"	m	struct:__anon16
+send_cb	./le1w_svr.h	/^    conn_send_cb_t send_cb;$/;"	m	struct:le1w_conn
+send_list	./le1w_svr.h	/^    list_t *send_list;$/;"	m	struct:le1w_conn
+seq	./comm.h	/^            uint32_t seq;                       \/* 顺序号 *\/$/;"	m	struct:__anon5::__anon6::__anon7
+serial	./comm.h	/^        uint64_t serial;                        \/* 序列号 *\/$/;"	m	union:__anon5::__anon6
+serial_t	./comm.h	/^} serial_t;$/;"	t	typeref:struct:__anon5
+set_fd_limit	./redo.c	/^int set_fd_limit(int max)$/;"	f
+sid	./comm.h	/^            uint32_t sid:16;                    \/* 服务ID *\/$/;"	m	struct:__anon5::__anon6::__anon7
+size	./le1w_svr.h	/^    size_t size;$/;"	m	struct:data_buf
+stack_depth	./stack.h	124;"	d
+stack_destroy	./stack.h	/^static inline int stack_destroy(Stack_t *stack)$/;"	f
+stack_empty	./stack.h	122;"	d
+stack_gettop	./stack.h	123;"	d
+stack_init	./stack.h	/^static inline int stack_init(Stack_t *stack, int max)$/;"	f
+stack_maxdepth	./stack.h	125;"	d
+stack_pop	./stack.h	/^static inline void *stack_pop(Stack_t *stack)$/;"	f
+stack_push	./stack.h	/^static inline int stack_push(Stack_t *stack, void *node)$/;"	f
+svr_fd	./le1w_svr.h	/^    int svr_fd;            $/;"	m	struct:__anon12
+tail	./list.h	/^    list_node_t *tail;              \/* 链表尾 *\/$/;"	m	struct:__anon2
+tail	./ring.h	/^        volatile unsigned int tail;         \/* 消费者: 尾索引(注: 其值一直往上递增) *\/$/;"	m	struct:__anon9::__anon11
+tail	./ring.h	/^        volatile unsigned int tail;         \/* 生产者: 尾索引(注: 其值一直往上递增) *\/$/;"	m	struct:__anon9::__anon10
+thread_args_t	./le1w_svr.h	/^}thread_args_t;$/;"	t	typeref:struct:__anon13
+timeout_list	./le1w_svr.h	/^    list_t *timeout_list;     \/* > 超时列表，后面会关闭 *\/$/;"	m	struct:__anon12
+top	./stack.h	/^    void **top;     \/* 栈顶地址 *\/$/;"	m	struct:__anon4
+trav_cb_t	./comm.h	/^typedef int (*trav_cb_t)(void *data, void *args);$/;"	t
+tree_delete_cb_t	./comm.h	/^typedef int (*tree_delete_cb_t)(void *tree, void *key, int key_len, void *data);$/;"	t
+tree_destroy_cb_t	./comm.h	/^typedef void (*tree_destroy_cb_t)(void *tree);$/;"	t
+tree_insert_cb_t	./comm.h	/^typedef int (*tree_insert_cb_t)(void *tree, void *key, int key_len, void *data);$/;"	t
+tree_query_cb_t	./comm.h	/^typedef void *(*tree_query_cb_t)(void *tree, void *key, int key_len);$/;"	t
+tree_trav_cb_t	./comm.h	/^typedef void (*tree_trav_cb_t)(void *tree, trav_cb_t proc, void *args);$/;"	t
